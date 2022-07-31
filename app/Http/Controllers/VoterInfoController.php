@@ -1,11 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\VoterInfo;
-use App\FlatInformation;
+use App\Models\VoterInfo;
+use App\Models\FlatInformation;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\post;
+use App\Models\post;
 use App\Http\Requests;
 use App\Http\Response;
 use DateTime;

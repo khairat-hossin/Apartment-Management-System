@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\OwnerInfo;
-use App\FlatInformation;
-use App\post;
+use App\Models\OwnerInfo;
+use App\Models\FlatInformation;
+use App\Models\post;
 use App\Http\Requests;
 use App\Http\Response;
 use DateTime;

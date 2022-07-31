@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\State;
-use App\Country;
+use App\Models\State;
+use App\Models\Country;
 
 class StateController extends Controller
 {

@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 use App;
 use Illuminate\Support\Facades\DB;
-use App\Bill;
-use App\Months;;
-use App\Years;
-use App\Employee;
-use App\FlatInformation;
+use App\Models\Bill;
+use App\Models\Months;;
+use App\Models\Years;
+use App\Models\Employee;
+use App\Models\FlatInformation;
 use Illuminate\Http\Request;
 use PDF;
 use DateTime;

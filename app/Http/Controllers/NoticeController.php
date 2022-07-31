@@ -5,9 +5,9 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use App\Post;
+use App\Models\Post;
 use Illuminate\Support\Facades\Redirect;
-use App\Notice;
+use App\Models\Notice;
 /**
 * 
 */

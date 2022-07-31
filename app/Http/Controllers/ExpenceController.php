@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\Expence;
-use App\Employee;
-use App\Committee;
-use App\post;
+use App\Models\Expence;
+use App\Models\Employee;
+use App\Models\Committee;
+use App\Models\post;
 use App\Http\Requests;
 use App\Http\Response;
 use DateTime;

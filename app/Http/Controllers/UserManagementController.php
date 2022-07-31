@@ -33,6 +33,7 @@ class UserManagementController extends Controller
      */
     public function index()
     {
+        // dd("hello");
         $users = User::paginate(8);
 
         return view('users-mgmt/index', compact('users'));

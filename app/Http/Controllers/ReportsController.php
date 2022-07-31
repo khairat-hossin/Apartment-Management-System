@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Bill;
-use App\VoterInfo;
-use App\FlatInformation;
-use App\Months;
-use App\Years;
-use App\Expence;
+use App\Models\Bill;
+use App\Models\VoterInfo;
+use App\Models\FlatInformation;
+use App\Models\Months;
+use App\Models\Years;
+use App\Models\Expence;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;

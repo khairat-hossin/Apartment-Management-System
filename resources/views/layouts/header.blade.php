@@ -6,7 +6,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>G</b>P</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg">{{ config('app.name', 'Green Peace') }}</span>
+      <span class="logo-lg">{{ config('Green Peace', 'Green Peace') }}</span>
     </a>
 
     <!-- Header Navbar -->

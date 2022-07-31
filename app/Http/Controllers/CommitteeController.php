@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Requests;
-use App\Committee;
-use App\VoterInfo;
-use App\OwnerInfo;
-use App\FlatInformation;
+use App\Models\Committee;
+use App\Models\VoterInfo;
+use App\Models\OwnerInfo;
+use App\Models\FlatInformation;
 
 class CommitteeController extends Controller
 {

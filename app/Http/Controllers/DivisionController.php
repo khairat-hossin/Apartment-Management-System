@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\Division;
+use App\Models\Division;
 
 class DivisionController extends Controller
 {

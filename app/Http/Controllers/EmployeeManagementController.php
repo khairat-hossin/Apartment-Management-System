@@ -5,12 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Response;
-use App\Employee;
-use App\City;
-use App\State;
-use App\Country;
-use App\Department;
-use App\Division;
+use App\Models\Employee;
+use App\Models\City;
+use App\Models\State;
+use App\Models\Country;
+use App\Models\Department;
+use App\Models\Division;
 
 class EmployeeManagementController extends Controller
 {
