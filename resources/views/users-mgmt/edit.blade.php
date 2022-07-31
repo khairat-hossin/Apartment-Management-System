@@ -9,7 +9,7 @@
                 <form class="form-horizontal" role="form" method="POST" action="{{ route('user-management.update', ['id' => $user->id]) }}">
                 <div class="panel-body">
                     
-                        <input type="hidden" name="_method" value="PATCH">
+                        <input type="hidden" name="_method" value="post">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
                             <label for="username" class="col-md-3 control-label">User Name</label>

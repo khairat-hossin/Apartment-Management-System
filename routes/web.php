@@ -11,7 +11,7 @@
 |
 */
 
-namespace App\Http\Controllers;
+// namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -30,8 +30,8 @@ Route::get('/', function () {
     else
     return view('dashboard');
 });
-Route::get('logout', 'Auth\LoginController@logout');
-Route::get('/dashboard', 'DashboardController@index');
+Route::get('logout', 'App\Http\Controllers\Auth\LoginController@logout');
+Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index');
 
 
 /*Aparments Routes*/
@@ -109,6 +109,7 @@ Route::get('user-management', 'App\Http\Controllers\UserManagementController@ind
 Route::get('user-management/create', 'App\Http\Controllers\UserManagementController@create')->name('user-management.create');
 Route::get('user-management/destroy/{id}', 'App\Http\Controllers\UserManagementController@destroy')->name('user-management.destroy');
 Route::get('user-management/edit/{id}', 'App\Http\Controllers\UserManagementController@edit')->name('user-management.edit');
+Route::post('user-management/update/{id}', 'App\Http\Controllers\UserManagementController@update')->name('user-management.update');
 Route::resource('employee-management', 'App\Http\Controllers\EmployeeManagementController');
 Route::get('employee-management/show/{id}',['as'=>'employee-management.show', 'uses'=>'App\Http\Controllers\EmployeeManagementController@show']);
 Route::get('employee-management/destroy/{id}',['as'=>'employee-management.destroy', 'uses'=>'App\Http\Controllers\EmployeeManagementController@destroy']);
